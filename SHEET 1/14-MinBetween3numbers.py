@@ -1,13 +1,12 @@
 # Write a program to input three numbers(A, B & C) from the user and print the
 # minimum element among A, B & C.
 
+a=float(input("Enter a : "))
+b=float(input("Enter b : "))
 
-A = float(input("Enter first number (A): "))
-B = float(input("Enter second number (B): "))
-
-if A < B:
-    print("Minimum:", A)
-elif B < A:
-    print("minimum:", B)
+if(a<b):
+    print(" A is min")
+elif(b<a):
+    print("B is min")
 else:
-    print("Both are equal")
+    print("Invalid input.")

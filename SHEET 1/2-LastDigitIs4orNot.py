@@ -1,10 +1,13 @@
 # WAP to check if the last digit is 4.
 
-n = int(input("Enter a number: "))
 
-last_digit = n % 10
+n=int(input("Enter n: "))
 
-if last_digit == 4:
-    print(" last digit is 4.")
+a=n%10
+
+if(a==4):
+    print("Yes")
 else:
-     print("last digit is not 4.")
+    print("No")
+
+

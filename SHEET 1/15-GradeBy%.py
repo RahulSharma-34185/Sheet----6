@@ -12,17 +12,15 @@
 # Above 85 – A+
 
 
-percentage = float(input("Enter your percentage: "))
+P = float(input("Enter your percentage : "))
 
-if percentage < 25:
-    grade = "D"
-elif 25 <= percentage < 45:
-    grade = "C"
-elif 45 <= percentage < 65:
-    grade = "B"
-elif 65 <= percentage < 85:
-    grade = "A"
-else:  # percentage >= 85
-    grade = "A+"
-
-print("Your grade is:",grade)
+if(P < 25):
+    print("Grade d")
+elif(P>25 and P<45):
+    print("Grade C")
+elif(P>45 and P<65):
+    print("Grade B")
+elif(P > 65 and P<85):
+    print("Grade A")
+else:
+    print("invalid input")

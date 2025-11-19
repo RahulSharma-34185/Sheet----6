@@ -1,9 +1,9 @@
 #8. WAP to check whether a person is eligible to vote or not.
 
 
-age = int(input("Enter your age: "))
+age = int(input("Enter age : "))
 
-if (age >= 18):
-    print("Eligible to vote")
+if(age>=18):
+    print("Yes")
 else:
-    print("Not eligible to vote")
+    print("No")
